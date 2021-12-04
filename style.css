@@ -1,0 +1,2548 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#image {
+    height: 111px;
+    width: 150px;
+}
+#logo {
+    margin-inline-start: 4em;
+    margin-top: -5px;
+    float: left;
+}
+#navBar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    
+    
+}
+#unOrdered {
+   float: right;
+   
+}
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    height: 90px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    
+    
+}
+#navBar ul {
+    margin-top: 20px;
+    
+}
+#navBar li {
+    display: inline-block;
+    font-family: 'Mountains of Christmas', cursive;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+#navBar li a{
+    text-decoration: none;
+    color: #cc231e;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header {
+    background-color: #34a65f;
+    height: 95px;
+}
+
+#clock {
+    font-size: 3em;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.hero-container {
+    text-align: center;
+    width: 1024px;
+    height: 512px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    top: -20%;
+    transform: translateY(30%);
+    margin: -72px auto 0 auto;
+    
+}
+.with-countdown {
+    background-image: url(https://i.pinimg.com/originals/20/de/3c/20de3ce39301206e27c89876ebba23ca.gif);
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+ 
+}
+
+
+#clock div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 15px;
+    background: #cc231e;
+    border-radius: 10px;
+    border: 2px solid #cc231e;
+    margin: 15px;
+    margin-top: 3%;
+}
+#clock div span {
+    color: #ffffff;
+    display: block;
+    margin-top: 15px;
+    font-size: .35em;
+    font-weight: 400;
+}
+.countMsg {
+    color: #fff;
+    font-family: 'Emilys Candy', cursive;
+    margin-top: 7%;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 1em;
+    
+    
+   
+}
+.countMsg-2{
+    color: #fff;
+    font-family: 'Emilys Candy', cursive; 
+    font-size: 40px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.sectionTxt {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 70px;
+    font-size: 45px;
+
+}
+.bestIdeas {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+   
+}
+.gifts {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 18px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+    
+}
+.imgHolder{
+    max-width: 144px;
+    max-height: 144px;
+    margin-left: 1em;
+}
+.text{
+    text-align: center;
+    color: #1b1642!important;
+    font-size: 1.2rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+}
+.btn {
+    padding: 7px;
+    border-radius: 10px;
+    background-color:#f8b229;
+    border-color: #f8b229;
+
+}
+.btn a {
+    text-decoration: none;
+    font-family: 'Emilys Candy', cursive;
+    color: #fff;
+}
+.btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.945);
+}
+
+
+.container {
+    margin-top: 3%;
+    display: grid;
+    align-content: center;
+   
+}
+.sectionName {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 5%;
+    font-size: 45px;
+
+}
+.top-5 {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 28px;
+}
+.spots {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 18px;
+}
+.destinationFacts {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: 1.2rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+
+}
+#destinations {
+    padding: 30px;
+}
+#gifts {
+    padding: 30px;  
+}
+#movies {
+    padding: 30px; 
+}
+#books {
+    padding: 30px; 
+}
+#about {
+    padding: 30px; 
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+    
+    
+}
+.imgHolder-1 {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 10px;
+   
+  
+    
+    
+}
+.second-section {
+    margin-top: 15%;
+    background-image: url(https://media4.giphy.com/media/26BRyql7J3iOx875u/200.gif);
+    background-color: #34a65f;
+    
+}
+.containers {
+   
+    margin-top: 3%;
+    display: grid;
+    align-content: center;
+       
+    
+}
+.btn {
+    padding: 7px;
+    border-radius: 10px;
+    background-color:#f8b229;
+    border-color: #f8b229;
+
+}
+
+.btn.btn-1 {
+    margin-bottom: 20px;
+}
+.checked {
+    color: orange;
+}
+.section-3{
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 5%;
+    font-size: 45px;
+}
+.movies {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 28px;
+}
+.movieTxt {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 18px;
+}
+.imgHolder-2 {
+    height: 183px;
+    width: 120px;
+    border-radius: 3px;
+    margin-left: 1em;
+}
+.moVies-abt {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: 1.2rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+}
+.row-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 2fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+}
+.contaiNer {
+    margin-top: 3%;
+    display: grid;
+    
+}
+.matrix-4 {
+    width: 120px;
+    margin-right: 1em;
+}
+.third-section {
+    margin-top: 14%;
+}
+.fouth-section {
+    margin-top: 14%;
+    background-image: url(https://i.pinimg.com/originals/3a/b3/5e/3ab35e9632c5b906f1774272bd260972.gif);
+    background-color: #235e6f;
+}
+.books {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 5%;
+    font-size: 45px;
+    
+    
+}
+
+.what-to-read {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 28px;
+}
+.bookList {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 18px;
+}
+.imgHolder-3 {
+    height: 200px;
+    width: 130px;
+    border-radius: 3px;
+    margin-left: 1em;
+}
+.container-4 {
+    margin-top: 3%;
+}
+.row-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 23px;
+    align-items: stretch;
+    justify-items: center;
+}
+.book-write-up {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: 1.2rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+}
+.abt {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 5%;
+    font-size: 45px;
+  
+}
+.aboutSect{
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #1b1642!important;
+    font-size: 25px;
+    margin-top: 2%;
+}
+.p {
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #1b1642!important;
+    font-size: 25px;
+    margin-top: 2%;
+
+}
+.socials a img{
+    height: 100px;
+    width: auto;
+    
+}
+div .socials {
+    text-align: center !important;
+}
+.copyright {
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 2%;
+   
+    
+    
+}
+div.copyright {
+    background-color: #34a65f;
+    padding: 10px;
+    
+}
+html {
+    scroll-behavior: smooth;
+    transition-duration: .3s;
+}
+.active{
+    border: transparent;
+    transition-duration: .3s;
+    border-bottom: 0.5rem solid #ff8204;
+    border-bottom-width: 4px;
+}
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+.hamburger:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 600px) { 
+    #image {
+      width: 50px;
+      height: auto;
+      margin-top: 45px;
+      margin-inline-start: -3em;
+
+    }
+    #unOrdered {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .hamburger {
+        display: block;
+        float: right;
+        margin-inline-end: .5em;
+        margin-top: 5px;
+    }
+    #unOrdered.show {
+        display: flex;
+        flex-flow: column wrap;
+        text-align: right;
+        
+        
+    }
+    #navBar li a {
+        font-size: 13px;
+    }
+    #navBar ul {
+        margin-top: 1px;
+        
+    }
+    #navBar li {
+        padding: 10px;
+        
+    }
+    .hamburger:hover {
+        color: #cc231e;
+    }
+    
+   
+#clock {
+    font-size: 3em;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.hero-container {
+    text-align: center;
+    width: 400px;
+    height: 512px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    top: -20%;
+    transform: translateY(30%);
+    margin: -72px auto 0 auto;
+    
+}
+.with-countdown {
+    background-image: url(https://i.pinimg.com/originals/20/de/3c/20de3ce39301206e27c89876ebba23ca.gif);
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+ 
+}
+
+
+#clock div {
+    display: inline-block;
+    min-width: 50px;
+    padding: 6px;
+    background: #cc231e;
+    border-radius: 10px;
+    border: 2px solid #cc231e;
+    margin: 12px;
+    margin-top: 50px;
+    font-size: .80em;
+}
+#clock div span {
+    color: #ffffff;
+    display: block;
+    margin-top: 15px;
+    font-size: .30em;
+    font-weight: 400;
+}
+.countMsg {
+    color: #fff;
+    font-family: 'Emilys Candy', cursive;
+    margin-top: -70px;
+    font-size: 23px;
+    text-align: center;
+    margin-right: 1em;
+    
+    
+   
+}
+.countMsg-2{
+    color: #fff;
+    font-family: 'Emilys Candy', cursive; 
+    font-size: 23px;
+    margin-top: 40px;
+    text-align: center;
+}
+.sectionTxt {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 70px;
+    font-size: 30px;
+
+}
+.bestIdeas {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 18px;
+   
+}
+.gifts {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 14px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+    
+}
+.imgHolder{
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 1em;
+}
+.text{
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .80rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+}
+.btn {
+    padding: 4px;
+    border-radius: 10px;
+    background-color:#f8b229;
+    border-color: #f8b229;
+
+}
+.btn a {
+    text-decoration: none;
+    font-family: 'Emilys Candy', cursive;
+    color: #fff;
+    font-size: 10px;
+}
+.btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.945);
+}
+
+
+.container {
+    margin-top: 3%;
+    display: grid;
+    align-content: center;
+   
+}
+.sectionName {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 30px;
+
+}
+.top-5 {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 18px;
+}
+.spots {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 14px;
+}
+.destinationFacts {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .80rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+
+}
+#destinations {
+    padding: 30px;
+    
+}
+#gifts {
+    padding: 30px;  
+}
+#movies {
+    padding: 30px; 
+}
+#books {
+    padding: 30px; 
+}
+#about {
+    padding: 30px; 
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+    
+    
+}
+.imgHolder-1 {
+    max-width: 210px;
+    max-height: 140px;
+    border-radius: 10px;
+    
+}
+.second-section {
+    margin-top: 15%;
+    background-image: url(https://media4.giphy.com/media/26BRyql7J3iOx875u/200.gif);
+    background-color: #34a65f;
+    
+    
+}
+.containers {
+   
+    margin-top: 3%;
+    display: grid;
+    align-content: center;
+       
+    
+}
+.btn {
+    padding: 4px;
+    border-radius: 10px;
+    background-color:#f8b229;
+    border-color: #f8b229;
+
+}
+.btn a {
+    font-size: 10px;
+}
+
+.btn.btn-1 {
+    margin-bottom: 20px;
+}
+.checked {
+    color: orange;
+}
+.section-3{
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 30px;
+}
+.movies {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 18px;
+}
+.movieTxt {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 14px;
+}
+.imgHolder-2 {
+    height: 150px;
+    width: 100px;
+    border-radius: 3px;
+    margin-right: 1em;
+}
+.moVies-abt {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .80rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+}
+.row-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 2fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+}
+.contaiNer {
+    margin-top: 3%;
+    display: grid;
+    
+}
+.btn {
+    padding: 4px;
+}
+.btn a {
+    font-size: 10px;
+}
+.matrix-4 {
+    width: 100px;
+    margin-right: 1em;
+}
+.third-section {
+    margin-top: 14%;
+}
+.fouth-section {
+    margin-top: 14%;
+    background-image: url(https://i.pinimg.com/originals/3a/b3/5e/3ab35e9632c5b906f1774272bd260972.gif);
+    background-color: #235e6f;
+}
+.books {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 30px;
+    
+    
+}
+
+.what-to-read {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 18px;
+}
+.bookList {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 14px;
+}
+.imgHolder-3 {
+    height: 150px;
+    width: 100px;
+    border-radius: 3px;
+    margin-right: 1em;
+}
+.container-4 {
+    margin-top: 3%;
+}
+.row-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-gap: 23px;
+    align-items: stretch;
+    justify-items: center;
+}
+.btn{
+    padding: 4px;
+}
+.bta a {
+    font-size: 10px;
+}
+.book-write-up {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .80rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+}
+.abt {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 10px;
+    font-size: 30px;
+  
+}
+#about {
+    margin-top: 15%;
+    height: 70vh;
+}
+.aboutSect{
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #1b1642!important;
+    font-size: 13px;
+    margin-top: 2%;
+}
+.p {
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #1b1642!important;
+    font-size: 15px;
+    margin-top: 5%;
+
+}
+.socials a img{
+    height: 50px;
+    width: auto;
+    
+}
+div .socials {
+    text-align: center !important;
+    margin-top: 5%;
+}
+.copyright {
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #fff;
+    font-size: 8px;
+    margin-top: 15%;
+   
+}
+
+}   
+@media only screen and (min-width:601px) and (max-width: 768px) { 
+   
+    #image {
+        width: 70px;
+        height: auto;
+        margin-top: 35px;
+        margin-inline-start: -3em;
+  
+      }
+      #unOrdered {
+          display: none;
+          width: 100%;
+          flex-direction: column;
+      }
+      .hamburger {
+          display: block;
+          float: right;
+          margin-inline-end: .5em;
+          margin-top: 5px;
+      }
+      #unOrdered.show {
+          display: flex;
+          flex-flow: column wrap;
+          text-align: right;
+          
+          
+      }
+      #navBar li a {
+          font-size: 18px;
+      }
+      #navBar ul {
+          margin-top: 1px;
+          
+    }
+    #navBar li {
+          padding: 10px;
+          
+    }
+    .hamburger:hover {
+          color: #cc231e;
+    }
+      
+     
+  #clock {
+      font-size: 3em;
+      font-weight: 100;
+      color: rgb(255, 255, 255);  
+   }
+  .hero-container {
+      text-align: center;
+      width: 400px;
+      height: 512px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      top: -20%;
+      transform: translateY(30%);
+      margin: -72px auto 0 auto;  
+   }
+  .with-countdown {
+      background-image: url(https://i.pinimg.com/originals/20/de/3c/20de3ce39301206e27c89876ebba23ca.gif);
+      width: 100%;
+      background-size: cover;
+      background-position: top;
+   }
+  
+  
+  #clock div {
+      display: inline-block;
+      min-width: 50px;
+      padding: 8px;
+      background: #cc231e;
+      border-radius: 10px;
+      border: 2px solid #cc231e;
+      margin: 15px;
+      margin-top: 50px;
+      font-size: .90em;
+   }
+  #clock div span {
+      color: #ffffff;
+      display: block;
+      margin-top: 15px;
+      font-size: .33em;
+      font-weight: 400;
+   }
+  .countMsg {
+      color: #fff;
+      font-family: 'Emilys Candy', cursive;
+      margin-top: -70px;
+      font-size: 27px;
+      text-align: center;
+      margin-right: 1em;
+       
+   }
+  .countMsg-2{
+      color: #fff;
+      font-family: 'Emilys Candy', cursive; 
+      font-size: 27px;
+      margin-top: 40px;
+      text-align: center;
+   }
+   .sectionTxt {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 70px;
+    font-size: 35px;
+
+   }
+   .bestIdeas {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 22px;
+   
+   }
+  .gifts {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 16px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+    
+  }
+ .imgHolder{
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: 1em;
+ }
+ .text{
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .90rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+ }
+ .btn {
+    padding: 5px;
+    border-radius: 10px;
+    background-color:#f8b229;
+    border-color: #f8b229;
+
+ }
+ .btn a {
+    text-decoration: none;
+    font-family: 'Emilys Candy', cursive;
+    color: #fff;
+    font-size: 13px;
+ }
+ .btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.945);
+ }
+
+
+ .container {
+    margin-top: 3%;
+    display: grid;
+    align-content: center;
+   
+ }
+ .sectionName {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 35px;
+
+ }
+ .top-5 {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 22px;
+ }
+ .spots {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 16px;
+ }
+ .destinationFacts {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .90rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+
+ }
+ #destinations {
+    padding: 30px;
+    
+ }
+ #gifts {
+    padding: 30px;  
+ }
+ #movies {
+    padding: 30px; 
+ }
+ #books {
+    padding: 30px; 
+ }
+ #about {
+    padding: 30px; 
+ }
+
+ .row-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+    
+    
+ }
+ .imgHolder-1 {
+    max-width: 250px;
+    max-height: 150px;
+    border-radius: 10px;
+    
+ }
+ .second-section {
+    margin-top: 15%;
+    background-image: url(https://media4.giphy.com/media/26BRyql7J3iOx875u/200.gif);
+    background-color: #34a65f;
+    
+    
+ }
+ .containers {
+   
+    margin-top: 3%;
+    display: grid;
+    align-content: center;
+       
+    
+ }
+ .btn {
+    padding: 5px;
+    border-radius: 10px;
+    background-color:#f8b229;
+    border-color: #f8b229;
+
+ }
+ .btn a {
+    font-size: 12px;
+ }
+
+ .btn.btn-1 {
+    margin-bottom: 20px;
+ }
+ .checked {
+    color: orange;
+ }
+ .section-3{
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 35px;
+ }
+ .movies {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 22px;
+ }
+ .movieTxt {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 16px;
+ }
+ .imgHolder-2 {
+    height: 150px;
+    width: 100px;
+    border-radius: 3px;
+    margin-right: 1em;
+ }
+ .moVies-abt {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .90rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+ }
+ .row-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 2fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+ } 
+ .contaiNer {
+    margin-top: 3%;
+    display: grid;
+    
+ }
+ .btn {
+    padding: 5px;
+ }
+ .btn a {
+    font-size: 12px;
+ }
+ .matrix-4 {
+    width: 100px;
+    margin-right: 1em;
+ }
+ .third-section {
+    margin-top: 14%;
+ }
+ .fouth-section {
+    margin-top: 14%;
+    background-image: url(https://i.pinimg.com/originals/3a/b3/5e/3ab35e9632c5b906f1774272bd260972.gif);
+    background-color: #235e6f;
+ }
+ .books {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 35px;
+    
+    
+ }
+ .what-to-read {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 22px;
+ }
+ .bookList {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 16px;
+ }
+ .imgHolder-3 {
+    height: 170px;
+    width: 120px;
+    border-radius: 3px;
+    margin-right: 1em;
+ }
+ .container-4 {
+    margin-top: 3%;
+ }
+ .row-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 23px;
+    align-items: stretch;
+    justify-items: center;
+ }
+ .btn{
+    padding: 5px;
+ }
+ .bta a {
+    font-size: 12px;
+ }
+ .book-write-up {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .90rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+ }
+ .abt {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 10px;
+    font-size: 35px;
+  
+ }
+ #about {
+    margin-top: 15%;
+    height: 70vh;
+ }
+ .aboutSect{
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #1b1642!important;
+    font-size: 15px;
+    margin-top: 2%;
+ }
+ .p {
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #1b1642!important;
+    font-size: 17px;
+    margin-top: 5%;
+
+ }
+ .socials a img{
+    height: 65px;
+    width: auto;
+    
+ }
+ div .socials {
+    text-align: center !important;
+    margin-top: 5%;
+ }
+ .copyright {
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #fff;
+    font-size: 9.5px;
+    margin-top: 15%;
+   
+ }
+}
+@media only screen and (min-width:769px) and (max-width: 1024px) { 
+   
+    #image {
+        width: 100px;
+        height: auto;
+        margin-top: 22px;
+        margin-inline-start: -3em;
+  
+      }
+      #unOrdered {
+          display: none;
+          width: 100%;
+          flex-direction: column;
+      }
+      .hamburger {
+          display: block;
+          float: right;
+          margin-inline-end: .5em;
+          margin-top: 5px;
+      }
+      #unOrdered.show {
+          display: flex;
+          flex-flow: column wrap;
+          text-align: right;
+          
+          
+      }
+      #navBar li a {
+          font-size: 22px;
+      }
+      #navBar ul {
+          margin-top: 1px;
+          
+    }
+    #navBar li {
+          padding: 10px;
+          
+    }
+    .hamburger:hover {
+          color: #cc231e;
+    }
+      
+     
+  #clock {
+      font-size: 3em;
+      font-weight: 100;
+      color: rgb(255, 255, 255);  
+   }
+  .hero-container {
+      text-align: center;
+      width: 400px;
+      height: 512px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      top: -20%;
+      transform: translateY(30%);
+      margin: -72px auto 0 auto;  
+   }
+  .with-countdown {
+      background-image: url(https://i.pinimg.com/originals/20/de/3c/20de3ce39301206e27c89876ebba23ca.gif);
+      width: 100%;
+      background-size: cover;
+      background-position: top;
+   }
+  
+  
+  #clock div {
+      display: inline-block;
+      min-width: 50px;
+      padding: 10px;
+      background: #cc231e;
+      border-radius: 10px;
+      border: 2px solid #cc231e;
+      margin: 13px;
+      margin-top: 50px;
+      font-size: .91em;
+   }
+  #clock div span {
+      color: #ffffff;
+      display: block;
+      margin-top: 15px;
+      font-size: .34em;
+      font-weight: 400;
+   }
+  .countMsg {
+      color: #fff;
+      font-family: 'Emilys Candy', cursive;
+      margin-top: -70px;
+      font-size: 30px;
+      text-align: center;
+      margin-right: 1em;
+       
+   }
+  .countMsg-2{
+      color: #fff;
+      font-family: 'Emilys Candy', cursive; 
+      font-size: 30px;
+      margin-top: 40px;
+      text-align: center;
+   }
+   .sectionTxt {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 70px;
+    font-size: 40px;
+
+   }
+   .bestIdeas {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 25px;
+   
+   }
+  .gifts {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 17px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 24px;
+    align-items: stretch;
+    justify-items: center;
+    
+  }
+ .imgHolder{
+    max-width: 130px;
+    max-height: 130px;
+    margin-left: 1em;
+ }
+ .text{
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .95rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+ }
+ .btn {
+    padding: 5.5px;
+    border-radius: 10px;
+    background-color:#f8b229;
+    border-color: #f8b229;
+
+ }
+ .btn a {
+    text-decoration: none;
+    font-family: 'Emilys Candy', cursive;
+    color: #fff;
+    font-size: 15px;
+ }
+ .btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.945);
+ }
+
+
+ .container {
+    margin-top: 3%;
+    display: grid;
+    align-content: center;
+   
+ }
+ .sectionName {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 40px;
+
+ }
+ .top-5 {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 25px;
+ }
+ .spots {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 17px;
+ }
+ .destinationFacts {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .95rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+
+ }
+ #destinations {
+    padding: 30px;
+    
+ }
+ #gifts {
+    padding: 30px;  
+ }
+ #movies {
+    padding: 30px; 
+ }
+ #books {
+    padding: 30px; 
+ }
+ #about {
+    padding: 30px; 
+ }
+
+ .row-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+    
+    
+ }
+ .imgHolder-1 {
+    max-width: 265px;
+    max-height: 165px;
+    border-radius: 10px;
+    
+ }
+ .second-section {
+    margin-top: 15%;
+    background-image: url(https://media4.giphy.com/media/26BRyql7J3iOx875u/200.gif);
+    background-color: #34a65f;
+    
+    
+ }
+ .containers {
+   
+    margin-top: 3%;
+    display: grid;
+    align-content: center;
+       
+    
+ }
+ .btn {
+    padding: 5px;
+    border-radius: 10px;
+    background-color:#f8b229;
+    border-color: #f8b229;
+
+ }
+ .btn a {
+    font-size: 15px;
+ }
+
+ .btn.btn-1 {
+    margin-bottom: 20px;
+ }
+ .checked {
+    color: orange;
+ }
+ .section-3{
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 40px;
+ }
+ .movies {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 25px;
+ }
+ .movieTxt {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 17px;
+ }
+ .imgHolder-2 {
+    height: 157px;
+    width: 109px;
+    border-radius: 3px;
+    margin-left: 1.8em;
+ }
+ .moVies-abt {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .95rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+ }
+ .row-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 25px;
+    align-items: stretch;
+    justify-items: center;
+ } 
+ .contaiNer {
+    margin-top: 3%;
+    display: grid;
+    
+ }
+ .btn {
+    padding: 5px;
+ }
+ .btn a {
+    font-size: 15px;
+ }
+ .matrix-4 {
+    width: 109px;
+    margin-right: 2em;
+    
+ }
+ .bond {
+    
+     margin-right: 2em;
+ }
+ 
+ .third-section {
+    margin-top: 14%;
+ }
+ .fouth-section {
+    margin-top: 14%;
+    background-image: url(https://i.pinimg.com/originals/3a/b3/5e/3ab35e9632c5b906f1774272bd260972.gif);
+    background-color: #235e6f;
+ }
+ .books {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 40px;
+    
+    
+ }
+ .what-to-read {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 25px;
+ }
+ .bookList {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 17px;
+ }
+ .imgHolder-3 {
+    height: 180px;
+    width: 125px;
+    border-radius: 3px;
+    margin-right: 1em;
+ }
+ .container-4 {
+    margin-top: 3%;
+ }
+ .row-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 23px;
+    align-items: stretch;
+    justify-items: center;
+ }
+ .btn{
+    padding: 5px;
+ }
+ .bta a {
+    font-size: 15px;
+ }
+ .book-write-up {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .95rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+ }
+ .abt {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 80px;
+    font-size: 40px;
+  
+ }
+ #about {
+    margin-top: 15%;
+    height: 70vh;
+ }
+ .aboutSect{
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #1b1642!important;
+    font-size: 18px;
+    margin-top: 2%;
+ }
+ .p {
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #1b1642!important;
+    font-size: 20px;
+    margin-top: 5%;
+
+ }
+ .socials a img{
+    height: 75px;
+    width: auto;
+    
+ }
+ div .socials {
+    text-align: center !important;
+    margin-top: 5%;
+ }
+ .copyright {
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #fff;
+    font-size: 9.7px;
+    margin-top: 15%;
+   
+ }
+ 
+}
+@media only screen and (min-width:1025px) and (max-width: 1200px) { 
+    #image {
+        width: 130px;
+        height: auto;
+        margin-top: 10px;
+        margin-inline-start: -1em;
+  
+      }
+     
+   
+      #navBar li a {
+          font-size: 27px;
+      }
+      #navBar ul {
+          margin-top: 1px;
+          
+    }
+    #navBar li {
+          padding: 10px;
+          
+    }
+   
+      
+     
+  #clock {
+      font-size: 3em;
+      font-weight: 100;
+      color: rgb(255, 255, 255);  
+   }
+  .hero-container {
+      text-align: center;
+      width: 500px;
+      height: 512px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      top: -20%;
+      transform: translateY(30%);
+      margin: -72px auto 0 auto;  
+   }
+  .with-countdown {
+      background-image: url(https://i.pinimg.com/originals/20/de/3c/20de3ce39301206e27c89876ebba23ca.gif);
+      width: 100%;
+      background-size: cover;
+      background-position: top;
+   }
+  
+  
+  #clock div {
+      display: inline-block;
+      min-width: 67px;
+      padding: 13px;
+      background: #cc231e;
+      border-radius: 10px;
+      border: 2px solid #cc231e;
+      margin: 14px;
+      margin-top: 50px;
+      font-size: .91em;
+   }
+  #clock div span {
+      color: #ffffff;
+      display: block;
+      margin-top: 15px;
+      font-size: .34em;
+      font-weight: 400;
+   }
+  .countMsg {
+      color: #fff;
+      font-family: 'Emilys Candy', cursive;
+      margin-top: -70px;
+      font-size: 35px;
+      text-align: center;
+      margin-right: 1em;
+       
+   }
+  .countMsg-2{
+      color: #fff;
+      font-family: 'Emilys Candy', cursive; 
+      font-size: 35px;
+      margin-top: 40px;
+      text-align: center;
+   }
+   .sectionTxt {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 70px;
+    font-size: 43px;
+
+   }
+   .bestIdeas {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 26.5px;
+   
+   }
+  .gifts {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 17.5px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    justify-items: center;
+    
+  }
+ .imgHolder{
+    max-width: 138.5px;
+    max-height: 138.5px;
+    margin-left: 1em;
+ }
+ .text{
+    text-align: center;
+    color: #1b1642!important;
+    font-size: 1rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+ }
+ .btn {
+    padding: 6px;
+    border-radius: 10px;
+    background-color:#f8b229;
+    border-color: #f8b229;
+
+ }
+ .btn a {
+    text-decoration: none;
+    font-family: 'Emilys Candy', cursive;
+    color: #fff;
+    font-size: 15px;
+ }
+ .btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.945);
+ }
+
+
+ .container {
+    margin-top: 3%;
+    display: grid;
+    align-content: center;
+   
+ }
+ .sectionName {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 43px;
+
+ }
+ .top-5 {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 26.5px;
+ }
+ .spots {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 17.5px;
+ }
+ .destinationFacts {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: 1rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+
+ }
+ #destinations {
+    padding: 30px;
+    
+ }
+ #gifts {
+    padding: 30px;  
+ }
+ #movies {
+    padding: 30px; 
+ }
+ #books {
+    padding: 30px; 
+ }
+ #about {
+    padding: 30px; 
+ }
+
+ .row-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    justify-items: center;
+    
+    
+ }
+ .imgHolder-1 {
+    max-width: 280px;
+    max-height: 180px;
+    border-radius: 10px;
+    
+ }
+ .second-section {
+    margin-top: 15%;
+    background-image: url(https://media4.giphy.com/media/26BRyql7J3iOx875u/200.gif);
+    background-color: #34a65f;
+    
+    
+ }
+ .containers {
+   
+    margin-top: 3%;
+    display: grid;
+    align-content: center;
+       
+    
+ }
+ .btn {
+    padding: 6px;
+    border-radius: 10px;
+    background-color:#f8b229;
+    border-color: #f8b229;
+
+ }
+ .btn a {
+    font-size: 15px;
+ }
+
+ .btn.btn-1 {
+    margin-bottom: 20px;
+ }
+ .checked {
+    color: orange;
+ }
+ .section-3{
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 43px;
+ }
+ .movies {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 26.5px;
+ }
+ .movieTxt {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 17.5px;
+ }
+ .imgHolder-2 {
+    height: 166px;
+    width: 115px;
+    border-radius: 3px;
+    margin-left: 1.8em;
+ }
+ .moVies-abt {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: 1rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+ }
+ .row-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 12px;
+    align-items: stretch;
+    justify-items: center;
+ } 
+ .contaiNer {
+    margin-top: 3%;
+    display: grid;
+    
+ }
+ .btn {
+    padding: 5px;
+ }
+ .btn a {
+    font-size: 15px;
+ }
+ .matrix-4 {
+    width: 109px;
+    margin-right: 2em;
+    
+ }
+ .bond {
+    
+     margin-right: 2em;
+ }
+ 
+ .third-section {
+    margin-top: 14%;
+ }
+ .fouth-section {
+    margin-top: 14%;
+    background-image: url(https://i.pinimg.com/originals/3a/b3/5e/3ab35e9632c5b906f1774272bd260972.gif);
+    background-color: #235e6f;
+ }
+ .books {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 15%;
+    font-size: 43px;
+    
+    
+ }
+ .what-to-read {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #1b1642!important;
+    font-size: 26.5px;
+ }
+ .bookList {
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 17.5px;
+ }
+ .imgHolder-3 {
+    height: 190px;
+    width: 127.5px;
+    border-radius: 3px;
+    margin-right: 1em;
+ }
+ .container-4 {
+    margin-top: 3%;
+ }
+ .row-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    justify-items: center;
+ }
+ .btn{
+    padding: 5px;
+ }
+ .bta a {
+    font-size: 15px;
+ }
+ .book-write-up {
+    text-align: center;
+    color: #1b1642!important;
+    font-size: .95rem!important;
+    font-weight: 700!important;
+    font-family: 'Benne', serif !important;
+ }
+ .abt {
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #cc231e;
+    margin-top: 80px;
+    font-size: 43px;
+  
+ }
+ #about {
+    margin-top: 15%;
+    height: 70vh;
+ }
+ .aboutSect{
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #1b1642!important;
+    font-size: 22px;
+    margin-top: 2%;
+ }
+ .p {
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #1b1642!important;
+    font-size: 22px;
+    margin-top: 5%;
+
+ }
+ .socials a img{
+    height: 85px;
+    width: auto;
+    
+ }
+ div .socials {
+    text-align: center !important;
+    margin-top: 5%;
+ }
+ .copyright {
+    text-align: center;
+    font-family: 'Charm', cursive;
+    color: #fff;
+    font-size: 9.8px;
+    margin-top: 15%;
+   
+ }
+}
+@media only screen and (min-width:1201px) {
+    
+    #image {
+        height: 111px;
+        width: 150px;
+    }
+    #logo {
+        margin-inline-start: 4em;
+        margin-top: -5px;
+        float: left;
+    }
+    #navBar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: right;
+        
+        
+    }
+    #unOrdered {
+       float: right;
+       
+    }
+    .header {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        height: 90px;
+        overflow: hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        transition: height 0.3s;
+        
+        
+    }
+    #navBar ul {
+        margin-top: 20px;
+        
+    }
+    #navBar li {
+        display: inline-block;
+        font-family: 'Mountains of Christmas', cursive;
+        padding: 5px 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 30px;
+        
+    }
+    #navBar li a{
+        text-decoration: none;
+        color: #cc231e;
+        
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .header {
+        background-color: #34a65f;
+        height: 95px;
+    }
+    
+    #clock {
+        font-size: 3em;
+        font-weight: 100;
+        color: rgb(255, 255, 255);
+        
+        
+    }
+    .hero-container {
+        text-align: center;
+        width: 1024px;
+        height: 512px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        top: -20%;
+        transform: translateY(30%);
+        margin: -72px auto 0 auto;
+        
+    }
+    .with-countdown {
+        background-image: url(https://i.pinimg.com/originals/20/de/3c/20de3ce39301206e27c89876ebba23ca.gif);
+        width: 100%;
+        background-size: cover;
+        background-position: top;
+     
+    }
+    
+    
+    #clock div {
+        display: inline-block;
+        min-width: 90px;
+        padding: 15px;
+        background: #cc231e;
+        border-radius: 10px;
+        border: 2px solid #cc231e;
+        margin: 15px;
+        margin-top: 3%;
+    }
+    #clock div span {
+        color: #ffffff;
+        display: block;
+        margin-top: 15px;
+        font-size: .35em;
+        font-weight: 400;
+    }
+    .countMsg {
+        color: #fff;
+        font-family: 'Emilys Candy', cursive;
+        margin-top: 7%;
+        font-size: 40px;
+        text-align: center;
+        margin-right: 1em;
+        
+        
+       
+    }
+    .countMsg-2{
+        color: #fff;
+        font-family: 'Emilys Candy', cursive; 
+        font-size: 40px;
+        margin-top: 2%;
+        text-align: center;
+    }
+    
+    .sectionTxt {
+        text-align: center;
+        font-family: 'Emilys Candy', cursive;
+        color: #cc231e;
+        margin-top: 70px;
+        font-size: 45px;
+    
+    }
+    .bestIdeas {
+        text-align: center;
+        font-family: 'Emilys Candy', cursive;
+        color: #1b1642!important;
+       
+    }
+    .gifts {
+        text-align: center;
+        font-family: 'Charmonman', cursive;
+        font-size: 18px;
+    }
+    .row {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 25px;
+        align-items: stretch;
+        justify-items: center;
+        
+    }
+    .imgHolder{
+        max-width: 144px;
+        max-height: 144px;
+        margin-left: 1em;
+    }
+    .text{
+        text-align: center;
+        color: #1b1642!important;
+        font-size: 1.2rem!important;
+        font-weight: 700!important;
+        font-family: 'Benne', serif !important;
+    }
+    .btn {
+        padding: 7px;
+        border-radius: 10px;
+        background-color:#f8b229;
+        border-color: #f8b229;
+    
+    }
+    .btn a {
+        text-decoration: none;
+        font-family: 'Emilys Candy', cursive;
+        color: #fff;
+    }
+    .btn:hover {
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px rgba(255, 0, 0, 0.945);
+    }
+    
+    
+    .container {
+        margin-top: 3%;
+        display: grid;
+        align-content: center;
+       
+    }
+    .sectionName {
+        text-align: center;
+        font-family: 'Emilys Candy', cursive;
+        color: #cc231e;
+        margin-top: 5%;
+        font-size: 45px;
+    
+    }
+    .top-5 {
+        text-align: center;
+        font-family: 'Emilys Candy', cursive;
+        color: #1b1642!important;
+        font-size: 28px;
+    }
+    .spots {
+        text-align: center;
+        font-family: 'Charmonman', cursive;
+        font-size: 18px;
+    }
+    .destinationFacts {
+        text-align: center;
+        color: #1b1642!important;
+        font-size: 1.2rem!important;
+        font-weight: 700!important;
+        font-family: 'Benne', serif !important;
+    
+    }
+    #destinations {
+        padding: 30px;
+    }
+    #gifts {
+        padding: 30px;  
+    }
+    #movies {
+        padding: 30px; 
+    }
+    #books {
+        padding: 30px; 
+    }
+    #about {
+        padding: 30px; 
+    }
+    
+    .row-1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        grid-gap: 25px;
+        align-items: stretch;
+        justify-items: center;
+        
+        
+    }
+    .imgHolder-1 {
+        max-width: 300px;
+        max-height: 200px;
+        border-radius: 10px;
+       
+      
+        
+        
+    }
+    .second-section {
+        margin-top: 15%;
+        background-image: url(https://media4.giphy.com/media/26BRyql7J3iOx875u/200.gif);
+        background-color: #34a65f;
+        
+    }
+    .containers {
+       
+        margin-top: 3%;
+        display: grid;
+        align-content: center;
+           
+        
+    }
+    .btn {
+        padding: 7px;
+        border-radius: 10px;
+        background-color:#f8b229;
+        border-color: #f8b229;
+    
+    }
+    
+    .btn.btn-1 {
+        margin-bottom: 20px;
+    }
+    .checked {
+        color: orange;
+    }
+    .section-3{
+        text-align: center;
+        font-family: 'Emilys Candy', cursive;
+        color: #cc231e;
+        margin-top: 5%;
+        font-size: 45px;
+    }
+    .movies {
+        text-align: center;
+        font-family: 'Emilys Candy', cursive;
+        color: #1b1642!important;
+        font-size: 28px;
+    }
+    .movieTxt {
+        text-align: center;
+        font-family: 'Charmonman', cursive;
+        font-size: 18px;
+    }
+    .imgHolder-2 {
+        height: 183px;
+        width: 120px;
+        border-radius: 3px;
+        margin-left: 1em;
+    }
+    .moVies-abt {
+        text-align: center;
+        color: #1b1642!important;
+        font-size: 1.2rem!important;
+        font-weight: 700!important;
+        font-family: 'Benne', serif !important;
+    }
+    .row-2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+        grid-gap: 25px;
+        align-items: stretch;
+        justify-items: center;
+    }
+    .contaiNer {
+        margin-top: 3%;
+        display: grid;
+        
+    }
+    .matrix-4 {
+        width: 120px;
+        margin-right: 1em;
+    }
+    .third-section {
+        margin-top: 14%;
+    }
+    .fouth-section {
+        margin-top: 14%;
+        background-image: url(https://i.pinimg.com/originals/3a/b3/5e/3ab35e9632c5b906f1774272bd260972.gif);
+        background-color: #235e6f;
+    }
+    .books {
+        text-align: center;
+        font-family: 'Emilys Candy', cursive;
+        color: #cc231e;
+        margin-top: 5%;
+        font-size: 45px;
+        
+        
+    }
+    
+    .what-to-read {
+        text-align: center;
+        font-family: 'Emilys Candy', cursive;
+        color: #1b1642!important;
+        font-size: 28px;
+    }
+    .bookList {
+        text-align: center;
+        font-family: 'Charmonman', cursive;
+        font-size: 18px;
+    }
+    .imgHolder-3 {
+        height: 200px;
+        width: 130px;
+        border-radius: 3px;
+        margin-left: 1em;
+    }
+    .container-4 {
+        margin-top: 3%;
+    }
+    .row-3 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 23px;
+        align-items: stretch;
+        justify-items: center;
+    }
+    .book-write-up {
+        text-align: center;
+        color: #1b1642!important;
+        font-size: 1.2rem!important;
+        font-weight: 700!important;
+        font-family: 'Benne', serif !important;
+    }
+    .abt {
+        text-align: center;
+        font-family: 'Emilys Candy', cursive;
+        color: #cc231e;
+        margin-top: 5%;
+        font-size: 45px;
+      
+    }
+    .aboutSect{
+        text-align: center;
+        font-family: 'Charm', cursive;
+        color: #1b1642!important;
+        font-size: 25px;
+        margin-top: 2%;
+    }
+    .p {
+        text-align: center;
+        font-family: 'Charm', cursive;
+        color: #1b1642!important;
+        font-size: 25px;
+        margin-top: 2%;
+    
+    }
+    .socials a img{
+        height: 100px;
+        width: auto;
+        
+    }
+    div .socials {
+        text-align: center !important;
+    }
+    .copyright {
+        text-align: center;
+        font-family: 'Charm', cursive;
+        color: #fff;
+        font-size: 12px;
+        margin-top: 2%;
+       
+        
+        
+    }
+    div.copyright {
+        background-color: #34a65f;
+        padding: 10px;
+        
+    }
+    html {
+        scroll-behavior: smooth;
+        transition-duration: .3s;
+    }
+    .active{
+        border: transparent;
+        transition-duration: .3s;
+        border-bottom: 0.5rem solid #ff8204;
+        border-bottom-width: 4px;
+    }
+    .hamburger {
+        background-color: transparent;
+        border: 0;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+        display: none;
+    }
+    .hamburger:focus {
+        outline: none;
+    }
+     
+} 
